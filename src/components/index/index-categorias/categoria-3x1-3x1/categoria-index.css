@@ -1,0 +1,75 @@
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.tarjeta-index-container {
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border: 2px solid transparent;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: scale .3s;
+}
+
+.tarjeta-index-container:hover {
+    scale: 105%;
+}
+
+.tarjeta-index-pic {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    transition: opacity .3s;
+}
+
+.tarjeta-index-pic:hover {
+    opacity: 0.4;
+}
+
+.t-i-img-fondo {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.t-i-text {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    opacity: 0;
+    z-index: 1;
+    gap: .3rem;
+    transition: opacity .3s;
+}
+
+.t-i-text>h3,
+.t-i-text>p {
+    color: #000;
+    font-weight: 700;
+    width: 80%;
+}
+
+.t-i-text>h3{
+    font-size: 1.5rem;
+}
+
+.t-i-text>p {
+    font-size: .9rem;
+}
+
+/* Mostrar texto cuando el mouse está encima */
+.tarjeta-index-container:hover .t-i-text {
+    opacity: 1;
+}

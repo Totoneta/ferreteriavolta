@@ -1,0 +1,34 @@
+.servicios-container{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 3rem 0;
+}
+
+.servicios-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: .5rem;
+    text-align: center;
+}
+
+.servicios-item>img{
+    height: 6rem;
+}
+
+.servicios-item>h3{
+    font-weight: bold;
+    font-size: 2rem;
+    color: #000000;
+}
+
+.servicios-item>p{
+    width: 85%;
+    color: #3d3d3d;
+}

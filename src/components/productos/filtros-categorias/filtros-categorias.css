@@ -1,0 +1,138 @@
+.filtros-cat-container {
+    width: 90%;
+    height: 100%;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 1.5rem;
+    margin: .4rem;
+}
+
+/* Búsqueda por nombre de producto */
+.categoria-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 90%;
+}
+
+.categoria-texto>input {
+    padding: .3rem;
+    height: 100%;
+    width: 70%;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #7996d9;
+    outline: none;
+}
+
+.categoria-texto>button {
+    height: 100%;
+    width: 30%;
+    border: none;
+    background-color: #7996d9;
+    cursor: pointer;
+    padding: .5rem;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: bold;
+    color: #000;
+}
+
+.categoria-texto>button:hover {
+    background-color: #5c8af5;
+}
+
+/* Categorías */
+.categoria-opciones {
+    background-color: #ccdbff;
+    gap: .5rem;
+    border-radius: 5px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.cat-opc-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: .5rem;
+}
+
+.cat-opc-item {
+    color: #000000;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.cat-opc-item:hover {
+    color: #3252e3;
+}
+
+/* Filtro por precio */
+.categoria-rango-precio {
+    background-color: #ccdbff;
+    gap: .5rem;
+    border-radius: 5px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Categorías activas */
+.categorias-activas {
+    background-color: #ccdbff;
+    gap: .5rem;
+    border-radius: 5px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 1rem;
+}
+
+.cat-act-list {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.cat-act-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cat-act-item>button {
+    border: none;
+    cursor: pointer;
+    padding: .5rem;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #000000;
+    background-color: transparent;
+}
+
+.cat-act-item>button:hover{
+    color: red;
+}

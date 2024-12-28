@@ -1,0 +1,8 @@
+.container-tarj-prod{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}

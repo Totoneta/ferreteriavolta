@@ -1,0 +1,24 @@
+.aside-empresa{
+    background-color: #ffc800;
+    height: 100%;
+    width: 100%;
+    color: #464646;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2.5rem;
+    border-left: 3px solid #000;
+}
+
+.aside-empresa>h3{
+    font-size: 2.4rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+.aside-empresa>p{
+    font-size: 1rem;
+    width: 90%;
+}

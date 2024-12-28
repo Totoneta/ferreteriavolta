@@ -1,0 +1,12 @@
+.ie-container{
+    height: auto;
+    width: 100%;
+    background-color: #dfdfdf;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 2rem 0;
+}

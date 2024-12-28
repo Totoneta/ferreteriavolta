@@ -1,0 +1,11 @@
+.productos-page-container{
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    background-color: #c3c3c3;
+}
+
